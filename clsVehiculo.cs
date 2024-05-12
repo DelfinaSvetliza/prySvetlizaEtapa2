@@ -14,16 +14,15 @@ namespace prySvetlizaEtapa2
         public string tipo { get; set; }
         public Image imagen { get; set; }
 
-        public clsVehiculo(string nombre, string tipo, Image imagen)
+        public clsVehiculo(string nom, string tip, Image imag)
         {
-            this.nombre = nombre;
-            this.tipo = tipo;
-            this.imagen = imagen;
+            nom = nombre;
+            tip = tipo;
+            imag = imagen;
         }
         public void crearVehiculo()
         {
-            
-            Console.WriteLine($"Vehículo creado: {nombre}, Tipo: {tipo}");
+            MessageBox.Show($"Vehículo creado: {nombre}, Tipo: {tipo}");
         }
     }
 

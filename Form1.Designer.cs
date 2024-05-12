@@ -35,7 +35,6 @@
             // 
             // pctVehiculo
             // 
-            this.pctVehiculo.Image = global::prySvetlizaEtapa2.Properties.Resources.barco;
             this.pctVehiculo.Location = new System.Drawing.Point(75, 28);
             this.pctVehiculo.Name = "pctVehiculo";
             this.pctVehiculo.Size = new System.Drawing.Size(417, 297);
@@ -63,6 +62,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.pctVehiculo)).EndInit();
             this.ResumeLayout(false);
 
